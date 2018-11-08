@@ -20,8 +20,8 @@ var Calculator = function() {
 	};
 
 	return {
-		add : _add,
 		sub : _sub,
+		add : _add,
 		mul : _mul
 	};
 };
