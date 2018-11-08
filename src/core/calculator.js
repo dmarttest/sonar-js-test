@@ -11,12 +11,17 @@ var Calculator = function() {
 		return a + b;
 	};
 
+    var _sub = function(a, b) {
+		return a - b;
+	};
+
 	var _mul = function(a, b) {
 		return a * b;
-	}
+	};
 
 	return {
 		add : _add,
+		sub : _sub,
 		mul : _mul
 	};
 };
