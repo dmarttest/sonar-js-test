@@ -15,9 +15,12 @@ var Calculator = function() {
 		return a * b;
 	}
 
+    var _div =  new Function("a", "b", "return a / b;")();
+
 	return {
 		add : _add,
-		mul : _mul
+		mul : _mul,
+        div : _div
 	};
 };
 
