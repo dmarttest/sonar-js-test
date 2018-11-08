@@ -13,9 +13,15 @@ var Calculator = function() {
 
 	var _mul = function(a, b) {
 		return a * b;
-	}
+	};
 
-    var _div =  new Function("a", "b", "return a / b;")();
+    var _div = function(a, b) {
+        let b = 12;
+        if (a) {
+            return b;
+        }
+        return b;
+    };
 
 	return {
 		add : _add,
